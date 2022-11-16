@@ -1,0 +1,126 @@
+header {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding: 18px 18px auto;
+}
+*{
+    font-family: "Orbitron", sans-serif;
+}
+body {
+    background: linear-gradient(to right, #000000 58%, #57B8FF 42%);
+    }
+img .Logo{
+    display: flex;
+    align-items: center;
+}
+nav>a .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin: 30px 30px auto;
+}
+.buttons{
+display: flex;
+align-items: center;
+}
+.buttons .Cart{
+ display: flex;
+ height: 32px;
+ padding-right: 40px;
+ align-items: center;
+}
+.buttons .contact-buttons{
+    color: white;
+    padding: 16px 31px;
+    background: none;
+    border: 1px solid white;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    user-select: none;
+    align-items: center;
+}
+.buttons .sus{
+    background-color: white;
+    color: black;
+    padding: 6px 6px;
+    font-size: 11px;
+    border-radius: 9px;
+    line-height: 7px;
+    position: absolute;
+    top: 25px;
+    right: 340px;
+}
+.man{
+    margin: 230px 60px 255px 1010px;
+}
+.mid-nav{
+    color:#57B8FF;
+    text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: -800px;
+}
+.gaming{
+    margin: 30px 724px 600px 150px;
+}
+.lorem{
+    color: #999999;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 615px;
+    top: 670px;
+    left: 150px;
+}
+nav .social-networks-list {
+display: flex;
+list-style-type: none;
+align-items: center;
+writing-mode: tb-rl;
+transform: rotate(180deg);
+font-size: 11px;
+position: absolute;
+left: 100px;
+top: 420px;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.social-networks-list {
+    padding: 5px;
+}
+.social-network-link {
+text-decoration: none;
+color: #80858F;
+}
+.explore-more {
+    color: white;
+    background-color: #57B8FF;
+    text-decoration: none;
+    padding: 21px 34px;
+    line-height: 28px;
+    font-size: 18px;
+    position: absolute;
+    top: 800px;
+    left: 120px;
+}
+.view-team {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    position: absolute;
+    list-style-type: none;
+    top: 820px;
+    left: 370px;
+    text-decoration: none;
+}
